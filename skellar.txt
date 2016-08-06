@@ -1,0 +1,32 @@
+ssh mobidawa@45.55.58.82
+
+Paraphrase: mobidawa#devshop
+
+---
+http://62.12.117.25:8010/voice
+
+Credentials are all as below
+U: at
+P: p@ssw0rd
+
+---
+880.welovenerds@ke.sip.africastalking.com
+pwd: DOPx_63b2723ece 
+
+---
+Account ID: GCK54HA7P5SGMLM5Y5ODULBAGDCQVT7IOWFNR7MD2GE7MRJLVJ2FQWYU
+Seed: SBOWQOQ3DFJZTAEPMSBHVZC7IUNFUDHU7X5G2GWUQHGUFHQKTUCS47HX
+
+---
+FriendBot top up
+curl "https://horizon-testnet.stellar.org/friendbot?addr=GCK54HA7P5SGMLM5Y5ODULBAGDCQVT7IOWFNR7MD2GE7MRJLVJ2FQWYU"
+
+---
+event-stream
+curl -H "Accept: text/event-stream" "https://horizon-testnet.stellar.org/accounts/GCK54HA7P5SGMLM5Y5ODULBAGDCQVT7IOWFNR7MD2GE7MRJLVJ2FQWYU/payments"
+
+---
+sequence number
+curl "https://horizon-testnet.stellar.org/accounts/GCK54HA7P5SGMLM5Y5ODULBAGDCQVT7IOWFNR7MD2GE7MRJLVJ2FQWYU"
+"sequence": "11458955565858816"
+

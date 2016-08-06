@@ -1,0 +1,28 @@
+{
+  "name": "skellar",
+  "version": "1.0.0",
+  "description": "for testing stellar.org",
+  "main": "app.js",
+  "dependencies": {
+    "eventsource": "^0.2.1",
+    "stellar-base": "^0.5.6",
+    "stellar-sdk": "^0.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaniKibichi/laughing-umbrella.git"
+  },
+  "keywords": [
+    "skella"
+  ],
+  "author": "JaniKibichi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaniKibichi/laughing-umbrella/issues"
+  },
+  "homepage": "https://github.com/JaniKibichi/laughing-umbrella#readme"
+}
